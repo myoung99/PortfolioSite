@@ -1,0 +1,136 @@
+
+
+
+
+
+/*============= COURSE SECTION =============*/
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+    font-size: 2.4rem;
+  }
+
+
+body{
+  overflow-x: hidden;
+  background-color: grey;
+  color:white;
+}
+
+/*NAVIGATION*/
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, .4) !important;
+}
+
+.navbar-brand img{
+  height: 2rem;
+}
+
+.navbar-nav li {
+  padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: grey;
+}
+
+/* LANDING PAGE */
+.home-inner{
+  background-image: url(img/apple-black-and-white-black-and-white-169573.jpg);
+}
+
+
+
+.caption{
+  width:100%;
+  max-width: 100%; /* when the website sizes down it will stay inside of the window */
+  position: absolute;
+  top: 38%;
+  z-index: 1; /* on top of the actual image */
+  color: white;
+  text-transform: uppercase;
+}
+
+.caption h1{
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem 1.5rem black;
+  padding-bottom: 1rem;
+}
+
+.caption h3{
+  font-size: 2rem;
+  text-shadow: .1rem .1rem 1.5rem black;
+  padding-bottom: 1.6rem;
+}
+
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+  text-shadow: .1rem .1 rem 1.5rem black;
+  background-color: white;
+  color:black;
+
+}
+
+
+h2{
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+p{
+  text-shadow: .1rem .1rem 2rem black;
+}
+
+body{
+  letter-spacing: .7px;
+}
+
+img{
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
